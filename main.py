@@ -1,8 +1,6 @@
-my_dict = {'artem': 2001, 'anton': 2010, 'vova': 1999}
-print(my_dict)
-print(my_dict.get('anton') )
-print(my_dict.get('vana') )
-my_dict.update({'lana': 1993, 'alan': 1998})
-print(my_dict)
-del my_dict['vova']
-print(my_dict)
+my_set ={1,3,5,'kace', 1,4,5}
+print(my_set)
+my_set = {1, 3, 5, 'kace', 1, 4, 5, 7, 8 }
+print(my_set)
+print(my_set.remove(1))
+print(my_set)
